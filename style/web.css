@@ -3,7 +3,8 @@
     padding: 0px;
 }
 .container{
-    background-color: rgb(175, 171, 171) ;
+    background-color: dimgrey;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,10 +30,9 @@
     color: white;
     display: flex;
     margin-left: 40px;
-    background-color:rgb(75, 72, 73);
-    border: 1px solid black;
     padding-right: 10px;
     cursor: pointer;
+    font-size: 30px;
 }
 .box:hover{background-color: rgb(219, 24, 24) ;}
 
@@ -44,7 +44,7 @@
 /* margin-top: 40px; */
 align-items: center;
 height:100vh;
-background-image: url("background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+background-image: url("./images/background.png"),;
 color: white;
 background-repeat: no-repeat;
 background-position: center;
@@ -53,6 +53,51 @@ background-size: cover;
 .photo{
     width: 300px;
 }
+
+.title{
+    padding: 10px;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: red;
+    border: 1px solid black;
+    font-weight: bolder;
+
+}
+
+.descriptions{
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.titles{
+    color: crimson;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+
+
+
+
+
+
+
 
 
 
